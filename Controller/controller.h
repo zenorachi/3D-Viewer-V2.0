@@ -1,3 +1,6 @@
+#ifndef 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_
+#define 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_
+
 #include "../Model/model.h"
 #include "adapter.h"
 #include "facade.h"
@@ -20,3 +23,5 @@ class Controller {
   Facade *facade_;
 };
 }  // namespace s21
+
+#endif  // 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_

@@ -1,5 +1,5 @@
-#ifndef CPP4_3D_VIEWER_V2_0_1_SRC_MODEL_FACADE_H_
-#define CPP4_3D_VIEWER_V2_0_1_SRC_MODEL_FACADE_H_
+#ifndef 3D_VIEWER_V2_0_MODEL_MODEL_H_
+#define 3D_VIEWER_V2_0_MODEL_MODEL_H_
 
 #include <locale.h>
 
@@ -112,4 +112,4 @@ class Model {
 };
 }  // namespace s21
 
-#endif  // CPP4_3D_VIEWER_V2_0_1_SRC_MODEL_FACADE_H_
+#endif  // D_VIEWER_V2_0_MODEL_MODEL_H_

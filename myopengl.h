@@ -1,5 +1,5 @@
-#ifndef CPP4_3D_VIEWER_V2_0_1_SRC_MYOPENGL_H_
-#define CPP4_3D_VIEWER_V2_0_1_SRC_MYOPENGL_H_
+#ifndef 3D_VIEWER_V2_0_MYOPENGL_H_
+#define 3D_VIEWER_V2_0_MYOPENGL_H_
 
 #include <QColor>
 #include <QGraphicsSceneMouseEvent>
@@ -12,26 +12,8 @@
 
 class Myopengl : public QOpenGLWidget, public QOpenGLFunctions {
  public:
-  int save_set = 0;
-  double thickness = 1;
   Myopengl(QWidget *parent = nullptr);
-  double scale = 1;
-  QColor background_color = QColorConstants::Black;
-  QColor points_color = QColorConstants::White;
-  QColor line_color = QColorConstants::White;
-  int striple = 0;
-  int proection = 0;
-  int form_points = 0;
-  ~Myopengl() {
-    //    if (res) {
-    //      s21_remove_struct(res);
-    //      free(res);
-    //    }
-  }
-  std::pair<double *, unsigned *> res;
-  std::pair<unsigned, unsigned> size;
-  QPoint mPos;
-  double point_thickness = 0;
+  ~Myopengl() {}
 
  protected:
   void PointSetting();
@@ -43,6 +25,19 @@ class Myopengl : public QOpenGLWidget, public QOpenGLFunctions {
  private:
   void mousePressEvent(QMouseEvent *) override;
   void mouseMoveEvent(QMouseEvent *) override;
+    QColor background_color = QColorConstants::Black;
+    QColor points_color = QColorConstants::White;
+    QColor line_color = QColorConstants::White;
+    int striple = 0;
+    int proection = 0;
+    int form_points = 0;
+    int save_set = 0;
+    double thickness = 1;
+    double scale = 1;
+    std::pair<double *, unsigned *> res;
+    std::pair<unsigned, unsigned> size;
+    QPoint mPos;
+    double point_thickness = 0;
 };
 
-#endif  // CPP4_3D_VIEWER_V2_0_1_SRC_MYOPENGL_H_
+#endif  // 3D_VIEWER_V2_0_MYOPENGL_H_
