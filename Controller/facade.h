@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_CONTROLLER_FACADE_H_
-#define 3D_VIEWER_V2_0_CONTROLLER_FACADE_H_
+#ifndef CONTROLLER_FACADE_H_
+#define CONTROLLER_FACADE_H_
 
 #include "../Model/model.h"
 
@@ -11,4 +11,4 @@ class Facade {
 };
 }  // namespace s21
 
-#endif  // 3D_VIEWER_V2_0_CONTROLLER_FACADE_H_
+#endif  // CONTROLLER_FACADE_H_

@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_
-#define 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_
+#ifndef CONTROLLER_CONTROLLER_H_
+#define CONTROLLER_CONTROLLER_H_
 
 #include "../Model/model.h"
 #include "adapter.h"
@@ -24,4 +24,4 @@ class Controller {
 };
 }  // namespace s21
 
-#endif  // 3D_VIEWER_V2_0_CONTROLLER_CONTROLLER_H_
+#endif  // CONTROLLER_CONTROLLER_H_

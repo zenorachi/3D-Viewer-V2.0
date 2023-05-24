@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_CONTROLLER_SINGLETON_H_
-#define 3D_VIEWER_V2_0_CONTROLLER_SINGLETON_H_
+#ifndef CONTROLLER_SINGLETON_H_
+#define CONTROLLER_SINGLETON_H_
 
 #include "controller.h"
 
@@ -22,4 +22,4 @@ class Singleton {
 };
 }  // namespace s21
 
-#endif  // 3D_VIEWER_V2_0_CONTROLLER_SINGLETON_H_
+#endif  // CONTROLLER_SINGLETON_H_

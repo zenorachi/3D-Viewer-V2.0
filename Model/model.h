@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_MODEL_MODEL_H_
-#define 3D_VIEWER_V2_0_MODEL_MODEL_H_
+#ifndef MODEL_MODEL_H_
+#define MODEL_MODEL_H_
 
 #include <locale.h>
 
@@ -112,4 +112,4 @@ class Model {
 };
 }  // namespace s21
 
-#endif  // D_VIEWER_V2_0_MODEL_MODEL_H_
+#endif  // MODEL_MODEL_H_

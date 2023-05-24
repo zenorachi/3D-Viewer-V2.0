@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_CONTROLLER_ADAPTER_H_
-#define 3D_VIEWER_V2_0_CONTROLLER_ADAPTER_H_
+#ifndef CONTROLLER_ADAPTER_H_
+#define CONTROLLER_ADAPTER_H_
 
 #include <iostream>
 
@@ -12,4 +12,4 @@ class Adapter {
 };
 }  // namespace s21
 
-#endif  // 3D_VIEWER_V2_0_CONTROLLER_ADAPTER_H_
+#endif  // CONTROLLER_ADAPTER_H_

@@ -1,5 +1,5 @@
-#ifndef 3D_VIEWER_V2_0_VIEW_MAINWINDOW_H_
-#define 3D_VIEWER_V2_0_VIEW_MAINWINDOW_H_
+#ifndef VIEW_MAINWINDOW_H_
+#define VIEW_MAINWINDOW_H_
 
 #include <QColorDialog>
 #include <QFileDialog>
@@ -106,4 +106,4 @@ class MainWindow : public QMainWindow {
   Ui::MainWindow *ui;
   double previous_scale_;
 };
-#endif  // 3D_VIEWER_V2_0_VIEW_MAINWINDOW_H_
+#endif  // VIEW_MAINWINDOW_H_
