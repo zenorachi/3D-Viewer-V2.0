@@ -1,11 +1,33 @@
-# 3D-Viewer-V2.0
+# 3DViewerV2.0
 
-### Implementation of a program to view 3D wireframe models (3D Viewer) in the C++ programming language.
+3DViewerV2.0 is an application designed for viewing 3D models in the .obj format. It provides users with a convenient way to visualize and explore 3D models with ease.
 
-#### Commands:
- * Run "make" or "make all" to build the application.\n
- * Run "make install" to install the application on your PC.\n
- * Run "make uninstall" to uninstall the application.\n
- * Run "make dvi" to get this documentation.\n
- * Run "make dist" to archive the application.\n
- * Run "make tests" to run the tests.\n
+### Technologies used:
+* [Qt](https://www.qt.io/)
+* [OpenGL](https://www.opengl.org/)
+
+## Features
+
+- Supports loading and displaying 3D models in the popular .obj format.
+
+- User-friendly graphical interface for intuitive navigation and exploration of 3D models.
+
+- Provides basic interactions like zooming, panning, and rotating to examine the model from various angles.
+
+- Efficient rendering techniques to ensure smooth and responsive visualization.
+
+## Installation
+
+1. Download or clone the repository:
+```sh
+git clone https://github.com/zenorachi/3DViewerV2.0.git
+```
+2. Build and compile the project:
+```sh
+make
+```
+3. Open the application:
+```sh
+make open
+```
+4. Enjoy!
