@@ -26,7 +26,7 @@ git clone https://github.com/zenorachi/3DViewerV2.0.git
 ```sh
 cd 3DViewerV2.0
 ```
-4. Build and compile the project:
+3. Build and compile the project:
 ```sh
 make
 ```
