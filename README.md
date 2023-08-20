@@ -4,7 +4,7 @@
 
 ### Technologies used:
 * [Qt](https://www.qt.io/), [OpenGL](https://www.opengl.org/)
-* [MVC](https://m.wikipedia.org/wiki/Model–view–controller), [Singlton](https://m.wikipedia.org/wiki/Singleton_pattern)
+* [MVC](https://m.wikipedia.org/wiki/Model–view–controller), [Singleton](https://m.wikipedia.org/wiki/Singleton_pattern)
 
 ## Features
 
