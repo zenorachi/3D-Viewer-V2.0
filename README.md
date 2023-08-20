@@ -3,8 +3,8 @@
 3DViewerV2.0 is an application designed for viewing 3D models in the .obj format. It provides users with a convenient way to visualize and explore 3D models with ease.
 
 ### Technologies used:
-* [Qt](https://www.qt.io/)
-* [OpenGL](https://www.opengl.org/)
+* [Qt](https://www.qt.io/), [OpenGL](https://www.opengl.org/)
+* [MVC](https://m.wikipedia.org/wiki/Model–view–controller), [Singlton](https://m.wikipedia.org/wiki/Singleton_pattern)
 
 ## Features
 
